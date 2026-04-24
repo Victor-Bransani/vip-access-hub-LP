@@ -71,20 +71,23 @@ const Index = () => {
           />
         </div>
 
-        <div className="animate-slide-up stagger-2 relative -mt-4 mb-2 flex w-full justify-center overflow-visible px-0 sm:-mt-5 sm:mb-3">
+        <div className="animate-slide-up stagger-2 flex justify-center relative z-20 -mt-2 mb-2 sm:-mt-3 sm:mb-3 px-4">
+          <img
+            src={stickerMlShopeeAmazon}
+            alt="As melhores ofertas do Mercado Livre, Amazon e Shopee no seu celular"
+            className="pointer-events-none w-[13rem] sm:w-[15rem] md:w-[17rem] -rotate-[3deg] drop-shadow-[0_12px_24px_rgba(0,0,0,0.45)] animate-float"
+            style={{ animationDelay: '0.2s', animationDuration: '4s' }}
+          />
+        </div>
+
+        <div className="animate-slide-up stagger-3 relative -mt-2 mb-2 flex w-full justify-center overflow-visible px-0 sm:-mt-2 sm:mb-3">
           <div className="relative mx-auto flex w-full max-w-sm sm:max-w-md md:max-w-lg flex-row items-center justify-center overflow-visible">
-            <div className="relative z-10 w-52 sm:w-64 md:w-72 shrink-0 -translate-x-3 sm:-translate-x-5 md:-translate-x-6">
+            <div className="relative z-10 w-52 sm:w-64 md:w-72 shrink-0">
               <PhoneMessageBubbles />
               <img
                 src={handPhone}
                 alt="Achadinhos no celular"
                 className="relative z-10 block w-full drop-shadow-2xl animate-float"
-              />
-              <img
-                src={stickerMlShopeeAmazon}
-                alt="As melhores ofertas do Mercado Livre, Amazon e Shopee no seu celular"
-                className="pointer-events-none absolute z-20 -right-10 top-12 w-[65%] sm:-right-16 sm:top-14 md:-right-20 md:top-16 -rotate-[6deg] md:-rotate-[5deg] drop-shadow-[0_10px_26px_rgba(0,0,0,0.5)] animate-float"
-                style={{ animationDelay: '0.2s', animationDuration: '4s' }}
               />
             </div>
           </div>
