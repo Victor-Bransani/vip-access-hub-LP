@@ -72,20 +72,19 @@ const Index = () => {
         </div>
 
         <div className="animate-slide-up stagger-2 relative -mt-4 mb-2 flex w-full justify-center overflow-visible px-0 sm:-mt-5 sm:mb-3">
-          <div className="relative mx-auto flex w-full max-w-sm sm:max-w-md md:max-w-lg flex-row flex-nowrap items-center justify-center gap-0 overflow-visible">
-            <div className="relative z-10 w-56 sm:w-64 md:w-72 shrink-0 translate-x-5 sm:translate-x-7 md:translate-x-10">
+          <div className="relative mx-auto flex w-full max-w-sm sm:max-w-md md:max-w-lg flex-row items-center justify-center overflow-visible">
+            <div className="relative z-10 w-52 sm:w-64 md:w-72 shrink-0 -translate-x-3 sm:-translate-x-5 md:-translate-x-6">
               <PhoneMessageBubbles />
               <img
                 src={handPhone}
                 alt="Achadinhos no celular"
                 className="relative z-10 block w-full drop-shadow-2xl animate-float"
               />
-            </div>
-            <div className="relative z-20 -ml-2 flex shrink-0 translate-x-8 -translate-y-8 sm:translate-x-12 sm:-translate-y-10 md:ml-1 md:translate-x-16 md:-translate-y-12">
               <img
                 src={stickerMlShopeeAmazon}
                 alt="As melhores ofertas do Mercado Livre, Amazon e Shopee no seu celular"
-                className="pointer-events-none block w-[10rem] sm:w-[12.5rem] md:w-[15rem] max-w-[min(44vw,14.5rem)] md:max-w-[min(42vw,17rem)] -rotate-[6deg] md:-rotate-[5deg] drop-shadow-[0_10px_26px_rgba(0,0,0,0.5)]"
+                className="pointer-events-none absolute z-20 -right-10 top-12 w-[65%] sm:-right-16 sm:top-14 md:-right-20 md:top-16 -rotate-[6deg] md:-rotate-[5deg] drop-shadow-[0_10px_26px_rgba(0,0,0,0.5)] animate-float"
+                style={{ animationDelay: '0.2s', animationDuration: '4s' }}
               />
             </div>
           </div>
